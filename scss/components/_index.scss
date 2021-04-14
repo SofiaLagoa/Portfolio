@@ -1,0 +1,57 @@
+.bodyIndex {
+    background-image: url("../imagenes/fotofondo.jpg");
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    @media (max-width: 320px) {
+        background-image: url("../imagenes/320X480.png");
+    }
+    @media (max-width: 720px) {
+        background-image: url("../imagenes/768X1024.png");
+    }
+}
+
+.contenidoPresentacion {
+    color: $colorTexto;
+    font-family: $tipografiaS;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    .nombre {
+        font-size: 2.5vw;
+        margin: 0;
+        padding: 0;
+        @media (max-width: 1065px) {
+            font-size: 3.3vw;
+            margin: 1px;
+        }
+    }
+    .descripcion {
+        font-size: 1.2vw;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+        @media (max-width: 1065px) {
+            font-size: 2.3vw;
+            margin: 1px;
+        }
+    }
+    .botonIngresar {
+        color: $colorPrincipal;
+        text-decoration: none;
+        font-size: 1.5vw;
+        margin: 5px;
+        padding: 0;
+        &:hover {
+            text-decoration: line-through;
+        }
+        @media (max-width: 1065px) {
+            font-size: 2.8vw;
+            margin: 1px;
+        }
+    }
+}

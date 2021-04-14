@@ -1,0 +1,120 @@
+%idiomas {
+    color: $colorCvInstitucion;
+    font-family: $tipografiaP;
+    font-weight: bold;
+}
+
+.bodyCurriculum {
+    background-color: $colorFondo;
+}
+
+.cv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nombreLogoCV {
+    font-size: 3em;
+    font-family: $tipografiaS;
+    color: $colorPrincipal;
+    padding: 0 0 0 0.3em;
+}
+
+.parrafoDescripcion {
+    color: $colorTexto;
+    padding: 0.5em 1.53em;
+    font-family: $tipografiaP;
+    p {
+        font-size: 1em;
+    }
+}
+
+.educacion {
+    margin: 2em 0 0;
+    .tituloSecciones {
+        color: $colorPrincipal;
+        font-family: $tipografiaS;
+    }
+    .secundaria {
+        color: $colorTexto;
+        .tituloSecciones2 {
+            color: $colorTexto;
+            font-family: $tipografiaS;
+        }
+        .descripcionEducacion {
+            color: $colorTexto;
+            font-size: 13m;
+        }
+        .institucion {
+            color: $colorTexto;
+            font-family: $tipografiaP;
+        }
+    }
+    .universidad {
+        color: $colorTexto;
+        .tituloSecciones2 {
+            color: $colorTexto;
+            font-family: $tipografiaS;
+        }
+        .descripcionEducacion {
+            color: $colorTexto;
+            font-size: 1em;
+        }
+        .institucion {
+            color: $colorTexto;
+            font-size: 1em;
+        }
+    }
+    .cursos {
+        margin: 1em 0 0;
+        color: $colorTexto;
+        .tituloSecciones2 {
+            color: $colorTexto;
+            font-family: $tipografiaS;
+        }
+        .institucionCurso {
+            color: $colorTexto;
+            font-family: $tipografiaP;
+            font-style: italic;
+            font-weight: bold;
+            color: $colorCvInstitucion;
+            font-size: 1em;
+        }
+        .descripcionEducacion {
+            color: $colorTexto;
+            font-size: 1em;
+        }
+    }
+}
+
+.skillsIdiomas {
+    margin: 2em 0 0;
+    color: $colorTexto;
+    .tituloSecciones {
+        color: $colorPrincipal;
+        font-family: $tipografiaS;
+    }
+    label {
+        color: $colorTexto;
+        font-family: $tipografiaP;
+    }
+    meter::-webkit-meter-bar {
+        background: $colorTexto;
+        border: none;
+        width: 100%;
+        @media (min-width: 955px) {
+            width: 300%;
+        }
+    }
+    meter::-webkit-meter-optimum-value {
+        background-color: $colorPrincipal;
+    }
+    .idioma1,
+    .idioma2 {
+        @extend %idiomas;
+    }
+    .nivelIdioma {
+        color: $colorTexto;
+        font-family: $tipografiaP;
+    }
+}

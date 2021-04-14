@@ -1,0 +1,25 @@
+.nav {
+    #logo {
+        margin-left: 0.6em;
+        font-family: $tipografiaS;
+        font-size: 1.8em;
+        &:hover {
+            color: $colorPrincipal;
+        }
+    }
+    .menu .lista {
+        margin: 1em;
+        a {
+            font-family: $tipografiaP;
+            color: $colorTexto;
+            &:hover {
+                text-decoration: line-through;
+                color: $colorPrincipal
+            }
+        }
+        .activo {
+            text-decoration: line-through;
+            color: $colorPrincipal;
+        }
+    }
+}

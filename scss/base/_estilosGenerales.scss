@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.contenido {
+    flex: 1;
+    padding: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #191919;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #B1CB08;
+}
+
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url(../fonts/BebasNeue-Regular.woff) format('woff');
+}

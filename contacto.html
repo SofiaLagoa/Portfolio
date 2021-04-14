@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfoflio - Sofia Constanza Lagoa. Contactame al mail lagoasofiaconstanza@gmail.com, o al linkedin https://www.linkedin.com/in/sofia-constanza-lagoa/">
+    <meta name="keywords" content="Contacto, Teléfono, Mail, Mensaje, Consulta, Formulario, Redes, Linkedin, Github, Dribbble">
+    <!-- Metas Open Graph -->
+    <meta property="og:type" content="Portafolio Web">
+    <meta property="og:title" content="Lagoa Sofia | Designer & Developer | Contactos">
+    <meta property="og:description" content="Portfoflio - Sofia Constanza Lagoa. Sección Contactos">
+    <meta property="og:site_name " content="Lagoa Sofia | Designer & Developer ">
+    <meta property="og:author " content="Sofia Constanza Lagoa ">
+    <!-- Link Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <!-- Link Fontawesome - Iconos redes-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <!-- Link Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!-- Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Lagoa Sofia | Designer & Developer | Contactos</title>
+</head>
+
+<body class="bodyContacto">
+
+    <section class="contenedorPrincipal">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark nav" style="background-color: #111111;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="logo" href="index.html">S C L</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse justify-content-end menu" id="navbarNavAltMarkup">
+                        <div class="navbar-nav lista">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" href="sobreMi.html">Sobre Mi</a>
+                            <a class="nav-link" href="curriculum.html">Curriculum</a>
+                            <a class="nav-link" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link activo" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="contenido">
+
+            <!-- Formulario de contacto-->
+            <section class="d-flex justify-content-center">
+                <form action="enviar.php" method="POST" class="contactoFormulario">
+                    <div class="formulario">
+                        <!-- Input texto-->
+                        <label for="full-name">Nombre y Apellido</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Nombre y Apellido">
+
+                        <!-- Input Email-->
+                        <label for="eamil">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+
+                        <!-- Textarea-->
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                        <!--Boton enviar / submit-->
+                        <button type="submit" class="container">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <div class="iconosRedes">
+                <a href="https://www.linkedin.com/in/sofia-constanza-lagoa/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/SofiaLagoa" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                <a href="https://dribbble.com/SofiaConstanzaL" target="_blank" class="dribble"><i class="fab fa-dribbble"></i></a>
+            </div>
+            <p class="created">Created by Sofia Lagoa</p>
+        </footer>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
