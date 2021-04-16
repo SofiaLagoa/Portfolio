@@ -48,6 +48,10 @@ $coloresGenerales: #111111,
                 text-decoration: line-through;
             }
         }
+        .ajusteButton {
+            padding: 0;
+            margin: 0;
+        }
     }
     @media (max-width: 574px) {
         width: 100%;
