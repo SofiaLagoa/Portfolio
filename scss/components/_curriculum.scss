@@ -94,20 +94,12 @@
         color: $colorPrincipal;
         font-family: $tipografiaS;
     }
-    label {
-        color: $colorTexto;
-        font-family: $tipografiaP;
-    }
-    meter::-webkit-meter-bar {
-        background: $colorTexto;
-        border: none;
-        width: 100%;
-        @media (min-width: 955px) {
-            width: 300%;
-        }
-    }
-    meter::-webkit-meter-optimum-value {
+    .colorBar {
         background-color: $colorPrincipal;
+        color: $colorTexto;
+    }
+    .tamañoBar {
+        width: 50%;
     }
     .idioma1,
     .idioma2 {
