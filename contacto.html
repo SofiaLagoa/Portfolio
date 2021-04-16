@@ -55,8 +55,9 @@
 
             <!-- Formulario de contacto-->
             <section class="d-flex justify-content-center">
-                <form action="#" method="POST" class="contactoFormulario">
+                <form class="contactoFormulario" id="contact-form">
                     <div class="formulario">
+                        <input class="form-control" type="hidden" name="subject" value="Email portfolio">
                         <!-- Input texto-->
                         <label for="full-name">Nombre y Apellido</label>
                         <input type="text" id="full-name" name="full-name" placeholder="Nombre y Apellido">
@@ -71,7 +72,7 @@
 
                         <!--Boton enviar / submit-->
                         <div class="row ajusteButton">
-                            <button type="button" class="container col-md-12" onclick="sendEmail()">Enviar</button>
+                            <button type="submit" class="container col-md-12">Enviar</button>
                         </div>
                     </div>
                 </form>
@@ -91,7 +92,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script src="email.js"></script>
 </body>
-
-</html>
