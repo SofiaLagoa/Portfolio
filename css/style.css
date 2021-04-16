@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *:before,
 *:after {
@@ -293,22 +294,12 @@
   color: #B1CB08;
   font-family: "BebasNeue-Regular";
 }
-.skillsIdiomas label {
-  color: #FFFFFF;
-  font-family: "Poppins", sans-serif;
-}
-.skillsIdiomas meter::-webkit-meter-bar {
-  background: #FFFFFF;
-  border: none;
-  width: 100%;
-}
-@media (min-width: 955px) {
-  .skillsIdiomas meter::-webkit-meter-bar {
-    width: 300%;
-  }
-}
-.skillsIdiomas meter::-webkit-meter-optimum-value {
+.skillsIdiomas .colorBar {
   background-color: #B1CB08;
+  color: #FFFFFF;
+}
+.skillsIdiomas .tamañoBar {
+  width: 50%;
 }
 .skillsIdiomas .nivelIdioma {
   color: #FFFFFF;
@@ -505,6 +496,10 @@
 }
 .contactoFormulario .formulario button:hover {
   text-decoration: line-through;
+}
+.contactoFormulario .formulario .ajusteButton {
+  padding: 0;
+  margin: 0;
 }
 @media (max-width: 574px) {
   .contactoFormulario {
