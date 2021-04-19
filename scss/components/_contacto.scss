@@ -1,6 +1,6 @@
 $coloresGenerales: #111111,
 #191919,
-#B1CB08;
+#b1cb08;
 .bodyContacto {
     color: $colorTexto;
     background-color: nth($coloresGenerales, 1);
@@ -22,7 +22,7 @@ $coloresGenerales: #111111,
         padding: 0.5em;
         font-size: 1em;
     }
-    .formulario input[type=email] {
+    .formulario input[type="email"] {
         background-color: $colorTexto;
         border: none;
         border-radius: 0.2em;

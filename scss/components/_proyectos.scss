@@ -2,7 +2,7 @@
     background: $colorFondo;
 }
 
-@mixin proyectos ($bgColor, $padding, $margin, $border) {
+@mixin proyectos($bgColor, $padding, $margin, $border) {
     background-color: $bgColor;
     padding: $padding;
     margin: $margin;
