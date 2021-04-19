@@ -1,5 +1,5 @@
 {
-    "name": "node",
+    "name": "portfolio",
     "version": "1.0.0",
     "description": "Portfoflio Web - Sofia Constanza Lagoa: Licenciada en Diseño Multimedial & Developer Frontend",
     "main": "modal.js",
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SofiaLagoa/proyectoFinalCoder.git"
+        "url": "git+https://github.com/SofiaLagoa/portfolio.git"
     },
     "author": "Sofia Constanza Lagoa",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/SofiaLagoa/proyectoFinalCoder/issues"
+        "url": "https://github.com/SofiaLagoa/portfolio/issues"
     },
-    "homepage": "https://github.com/SofiaLagoa/proyectoFinalCoder#readme",
+    "homepage": "https://github.com/SofiaLagoa/portfolio#readme",
     "dependencies": {
         "emailjs-com": "^2.6.4",
         "node-sass": "^5.0.0",
