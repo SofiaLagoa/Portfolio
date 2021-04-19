@@ -6,6 +6,24 @@
     padding: 0;
 }
 
+body {
+    // Firefox
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #b1cb08 #191919;
+    /* funciona cuando abris el modal del proyecto */
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background-color: #191919;
+    }
+    &::-webkit-scrollbar-thumb {
+        height: 30px;
+        background-color: #b1cb08;
+    }
+}
+
 .contenedorPrincipal {
     display: flex;
     min-height: 100vh;
