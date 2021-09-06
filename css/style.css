@@ -367,6 +367,31 @@ body::-webkit-scrollbar-thumb {
   padding-right: 1em;
   font-family: "Poppins", sans-serif;
 }
+.proyecto2 .imagenProyectoWeb {
+  margin-bottom: 4em;
+}
+
+.proyecto3 {
+  background-color: #191919;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+}
+.proyecto3 .plataformaProyecto {
+  color: #ffffff;
+  font-family: "BebasNeue-Regular";
+  font-size: 2em;
+  padding-right: 0.5em;
+}
+.proyecto3 .nombreProyecto {
+  color: #ffffff;
+  font-size: 1em;
+  padding-right: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.proyecto3 .imagenProyectoWeb {
+  margin-bottom: 4em;
+}
 
 .bodyVistaProyecto {
   background-color: #111111;

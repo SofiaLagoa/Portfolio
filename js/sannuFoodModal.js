@@ -4,15 +4,16 @@ let modal = document.getElementById("myModal");
 let captionText = document.getElementById("caption");
 let span = document.getElementsByClassName("close")[0];
 
-//Fotos proyecto Sannu Foods
+//Fotos proyecto Calculador de Materiales
 let imgSannuFoods = document.querySelector(".imgSannu1");
 let imgSannuFoods2 = document.querySelector(".imgSannu2");
 let imgSannuFoods3 = document.querySelector(".imgSannu3");
 let imgSannuFoods4 = document.querySelector(".imgSannu4");
-//Sannu Foods
+
+//Calculador de Materiales para la cosntruccion 
 let modalImgSannu = document.getElementById("img01Sannu");
 
-//HacerModal Sannu Foods
+//HacerModal Calculador de Materiales
 hacerModal(modal, imgSannuFoods, modalImgSannu, captionText, span);
 hacerModal(modal, imgSannuFoods2, modalImgSannu, captionText, span);
 hacerModal(modal, imgSannuFoods3, modalImgSannu, captionText, span);

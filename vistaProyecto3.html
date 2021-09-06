@@ -5,32 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfoflio - Sofia Constanza Lagoa. Sección Proyectos. Proyectos realizados">
-    <meta name="keywords" content="Proyectos, Experiencia, Web, Proyecto Web, Pharmadic, Mobile, Proyecto Mobile">
+    <meta name="description" content="Portfoflio - Sofia Constanza Lagoa. Sección Vista Proyectos. Detallle proyectos realizados">
+    <meta name="keywords" content="Vista, Vista Proyectos, Detalle, Detalle Proyectos, Proyectos, Experiencia, Web, Proyecto Web, Pharmadic, Mobile, Proyecto Mobile">
     <!-- Metas Open Graph -->
     <meta property="og:type" content="Portafolio Web">
-    <meta property="og:title" content="Lagoa Sofia | Designer & Developer | Proyectos">
-    <meta property="og:description" content="Portfoflio - Sofia Constanza Lagoa. Sección Proyectos">
+    <meta property="og:title" content="Lagoa Sofia | Designer & Developer | Vista Proyectos">
+    <meta property="og:description" content="Portfoflio - Sofia Constanza Lagoa. Sección Vista Proyectos.">
     <meta property="og:site_name " content="Lagoa Sofia | Designer & Developer ">
     <meta property="og:author " content="Sofia Constanza Lagoa ">
     <!-- Link Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="imagenes/favicon.ico">
     <!-- Link Fontawesome - Iconos redes-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <!-- Link Google Font -->
+    <!-- Link Google font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
     <!-- Link Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <!-- Link CSS-->
+    <!-- Link CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Lagoa Sofia | Designer & Developer | Proyectos </title>
+    <title>Lagoa Sofia | Designer & Developer | Vista Proyectos </title>
 </head>
 
-<body class="bodyProyectos">
-    <section class="contenedorPrincipal">
-
+<body class="bodyVistaProyecto">
+    <section class="contenidoPrincipal">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark nav" style="background-color: #111111;">
                 <div class="container-fluid">
@@ -51,35 +50,34 @@
             </nav>
         </header>
 
-        <main class="contenidoProyectos contenido">
+        <main class="contenidoVistaProyectos contenido container">
 
-            <!-- Seccion Proyectos -->
-            <section class="container">
+            <!-- Seccion Vista Proyecto-->
+            <section class="VistaProyectos">
 
-                <!-- Proyecto 1 -->
-                <div class="proyecto1 text-center">
-                    <h1 class="plataformaProyecto text-end">Web</h1>
-                    <h2 class="nombreProyecto text-end">Pharmadic.com
-                        <h2>
-                            <a href="vistaProyecto.html"><img src="imagenes/pharmadic.png" alt="proyecto web logo pharmadic" class="img-fluid text-center imagenProyectoWeb"></a>
+                <!-- Cabecera de la seccion-->
+                <div class="cabecera text-center">
+                    <h1 class="tituloCebecera text-end">Web</h1>
+                    <h2 class="descripcionCabecera text-end">Calculador de Materiales</h2>
+                    <a href="https://github.com/SofiaLagoa/calculador-de-materiales" target="_blank"> <img src="imagenes/calculadorLogo.png" alt="logo del proyecto" class="imagenLogoCabecera img-fluid"></a>
                 </div>
 
-                <!-- Proyecto 2 -->
-                <div class="proyecto2  text-center ">
-                    <h1 class="plataformaProyecto text-end">Web</h1>
-                    <h2 class="nombreProyecto text-end">Sannu Foods</h2>
-                    <a href="vistaProyecto2.html"><img src="imagenes/sannuFoodsLogo.png" alt="proyecto sannu foods" class="img-fluid text-center imagenProyectoWeb"></a>
+                <!-- Contenido del proyecto-->
+                <div class="contenidoVistaProyecto text-center ">
+                    <p class="parrafoDescripcion text-start">Calculador es una aplicación multi-plataforma, libre y gratuita, que te permite calcular los materiales de construcción necesarios para tu proyecto.</p>
+                    <p class="parrafoDescripcion text-start">A continuación se pueden observar algunas pantallas del trabajo realizado. El mismo incluye HTML / CSS / JS. </p>
+                    <img id="myImg" src="imagenes/calculador1.png" alt="Pantalla de inicio" class="imagenProyecto img-fluid calculador1">
+                    <img id="myImg" src="imagenes/calculador2.png" alt="Pantalla con las opciones a calcular" class="imagenProyecto img-fluid calculador2">
+                    <img id="myImg" src="imagenes/calculador3.png" alt="Pantalla con los materiales calculados" class="imagenProyecto img-fluid calculador3">
+                   
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01Calculador" />
+                        <div id="caption"></div>
+                    </div>
                 </div>
-
-               <!-- Proyecto 3 -->
-               <div class="proyecto3  text-center ">
-                    <h1 class="plataformaProyecto text-end">Web</h1>
-                    <h2 class="nombreProyecto text-end">Calculador de Materiales</h2>
-                    <a href="vistaProyecto3.html"><img src="imagenes/calculadorLogo.png" alt="proyecto Calculador de materiales para la construcciónn" class="img-fluid text-center imagenProyectoWeb"></a>
                 </div>
-
             </section>
-
         </main>
 
         <!--Footer - Iconos Redes-->
@@ -91,10 +89,9 @@
             </div>
             <p class="created">Created by Sofia Lagoa</p>
         </footer>
-
     </section>
 
-
+    <script src="js/calculadorDeMateriales.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 

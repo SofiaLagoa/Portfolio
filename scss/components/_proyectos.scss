@@ -46,3 +46,22 @@
         margin-bottom: 4em;
     }
 }
+
+.proyecto3 {
+    @include proyectos(#191919, 1em, 1em, 1em);
+    .plataformaProyecto {
+        color: $colorTexto;
+        font-family: $tipografiaS;
+        font-size: 2em;
+        padding-right: 0.5em;
+    }
+    .nombreProyecto {
+        color: $colorTexto;
+        font-size: 1em;
+        padding-right: 1em;
+        font-family: $tipografiaP;
+    }
+    .imagenProyectoWeb {
+        margin-bottom: 4em;
+    }
+}
