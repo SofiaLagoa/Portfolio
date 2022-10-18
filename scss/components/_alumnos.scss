@@ -1,0 +1,35 @@
+.bodyAlumnos {
+    background: $colorFondo ;
+
+    .contenidoAlumnos {
+        .tituloAlumnos{
+            margin: 40px auto;
+        }
+
+
+
+
+
+        .filaAlumnos {
+
+            width: 100%;
+            max-width: 1240px;
+
+            .cardPersonalizada {
+                padding: 5px 15px;
+                width: 100%;
+                background: $colorFondoSecundario;
+                color: $colorTexto;
+                margin: 20px;
+                border-radius: 5px;
+
+                .card-body {
+                    .buttonPersonalizado {
+                        background-color: $colorPrincipal;
+                        border-color: $colorPrincipal;
+                    }
+                }
+            }
+        }
+    }
+}
